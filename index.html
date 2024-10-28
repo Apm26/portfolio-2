@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous" />
+
+		<!-- Boostrap icons -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+
+		<!-- title icon -->
+		<link rel="icon" href="../img/portfolio.png" title="portfolio icons" />
+
+		<!-- google font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Nunito&display=swap"
+			rel="stylesheet" />
+
+		<!-- My CSS -->
+		<link rel="stylesheet" href="static/style.css" />
+
+		<title>Portfolio | Agung Permana Mukti</title>
+	</head>
+	<body id="home">
+		<nav
+			class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-primary shadow-lg fixed-top">
+			<div class="container">
+				<a class="navbar-brand" href="#">Agung Permana Mukti</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="#home">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#about">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#skills">Skills</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#projects">Projects</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact Me</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<section class="jumbotron text-center">
+			<div class="head">
+				<img
+					src="img/mypic-nobg.png"
+					alt="foto profil"
+					srcset=""
+					width="200"
+					class="pb-2 img-fluid" />
+				<h1 class="display-4">Agung Permana Mukti</h1>
+				<p class="lead">Frontend Web Developer Enthusiast</p>
+			</div>
+			<div class="shoulder">
+				<blockquote class="blockquote">
+					<br /><br />
+					<p
+						><em>
+							"Crafting Digital Experiences with Precision and Creativity"</em
+						></p
+					>
+				</blockquote>
+			</div>
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+				<path
+					fill="#63b1e6"
+					fill-opacity="1"
+					d="M0,288L34.3,277.3C68.6,267,137,245,206,224C274.3,203,343,181,411,170.7C480,160,549,160,617,176C685.7,192,754,224,823,218.7C891.4,213,960,171,1029,165.3C1097.1,160,1166,192,1234,176C1302.9,160,1371,96,1406,64L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+			</svg>
+		</section>
+
+		<section id="about">
+			<div class="container">
+				<div class="row text-center mb-4">
+					<div class="col">
+						<h2>About Me</h2>
+					</div>
+				</div>
+				<div class="row justify-content-center fs-5 text-center">
+					<div class="col-md-4">
+						<p class="lead fw-600">
+							Hi, I'm Agung, a passionate Frontend Web Developer with a keen eye
+							for design and a strong focus on creating engaging and
+							user-friendly experiences. I love bringing ideas to life through
+							elegant and responsive websites, ensuring every pixel is in its
+							perfect place.
+						</p>
+					</div>
+					<div class="col-md-4">
+						<p class="lead">
+							With a solid foundation in HTML, CSS, and JavaScript, I enjoy
+							staying up-to-date with the latest web technologies and trends. I
+							aim to craft seamless and visually stunning websites that leave a
+							lasting impression. Let's collaborate and build something amazing
+							together!
+						</p>
+					</div>
+				</div>
+			</div>
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+				<path
+					fill="#4fcbd1"
+					fill-opacity="1"
+					d="M0,128L24,112C48,96,96,64,144,58.7C192,53,240,75,288,74.7C336,75,384,53,432,48C480,43,528,53,576,53.3C624,53,672,43,720,32C768,21,816,11,864,16C912,21,960,43,1008,69.3C1056,96,1104,128,1152,160C1200,192,1248,224,1296,245.3C1344,267,1392,277,1416,282.7L1440,288L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path>
+			</svg>
+		</section>
+
+		<section id="skills">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col mb-4">
+						<h2>My Skills</h2>
+					</div>
+				</div>
+				<div class="row justify-content-around">
+					<!-- HTML Accordion -->
+					<div class="col-md-4 mb-3">
+						<div class="accordion" id="htmlAccordion">
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="htmlHeading">
+									<button
+										class="accordion-button collapsed"
+										type="button"
+										data-bs-toggle="collapse"
+										data-bs-target="#htmlCollapse"
+										aria-expanded="true"
+										aria-controls="htmlCollapse">
+										HTML5
+									</button>
+								</h2>
+								<div
+									id="htmlCollapse"
+									class="accordion-collapse collapse"
+									aria-labelledby="htmlHeading"
+									data-bs-parent="#htmlAccordion">
+									<div class="accordion-body">
+										<ul class="list-unstyled mb-0">
+											<li
+												><i class="bi bi-brush text-success"></i> Semantic
+												HTML</li
+											>
+											<li
+												><i class="bi bi-textarea-resize text-secondary"></i>
+												HTML Forms</li
+											>
+											<li
+												><i class="bi bi-eyeglasses text-info"></i>
+												Accesibilities</li
+											>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- CSS Accordion -->
+					<div class="col-md-4 mb-3">
+						<div class="accordion" id="cssAccordion">
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="cssHeading">
+									<button
+										class="accordion-button collapsed"
+										type="button"
+										data-bs-toggle="collapse"
+										data-bs-target="#cssCollapse"
+										aria-expanded="false"
+										aria-controls="cssCollapse">
+										CSS
+									</button>
+								</h2>
+								<div
+									id="cssCollapse"
+									class="accordion-collapse collapse"
+									aria-labelledby="cssHeading"
+									data-bs-parent="#cssAccordion">
+									<div class="accordion-body">
+										<ul class="list-unstyled mb-0">
+											<li
+												><i class="bi bi-aspect-ratio text-secondary"></i>
+												Responsive design</li
+											>
+											<li
+												><i class="bi bi-easel2-fill text-success"></i> BEM
+												architecture</li
+											>
+											<li
+												><i class="bi bi-bootstrap text-black-90"></i> Bootstrap
+												framework</li
+											>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- JavaScript Accordion -->
+					<div class="col-md-4 mb-3">
+						<div class="accordion" id="jsAccordion">
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="jsHeading">
+									<button
+										class="accordion-button collapsed"
+										type="button"
+										data-bs-toggle="collapse"
+										data-bs-target="#jsCollapse"
+										aria-expanded="false"
+										aria-controls="jsCollapse">
+										JavaScript
+									</button>
+								</h2>
+								<div
+									id="jsCollapse"
+									class="accordion-collapse collapse"
+									aria-labelledby="jsHeading"
+									data-bs-parent="#jsAccordion">
+									<div class="accordion-body">
+										<ul class="list-unstyled mb-0">
+											<li
+												><i class="bi bi-filetype-js text-warning"></i> ES6+</li
+											>
+											<li
+												><i class="bi bi-diagram-2-fill text-warning"></i>
+												JQuery</li
+											>
+											<li
+												><i class="bi bi-folder-plus text-info"></i> Async
+												programming</li
+											>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- PHP Accordion -->
+					<div class="col-md-4 mb-3">
+						<div class="accordion" id="phpAccordion">
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="phpHeading">
+									<button
+										class="accordion-button collapsed"
+										type="button"
+										data-bs-toggle="collapse"
+										data-bs-target="#phpCollapse"
+										aria-expanded="false"
+										aria-controls="phpCollapse">
+										PHP
+									</button>
+								</h2>
+								<div
+									id="phpCollapse"
+									class="accordion-collapse collapse"
+									aria-labelledby="phpHeading"
+									data-bs-parent="#phpAccordion">
+									<div class="accordion-body">
+										<ul class="list-unstyled mb-0">
+											<li
+												><i class="bi bi-box text-danger"></i> MVC concepts</li
+											>
+											<li
+												><i class="bi bi-stack text-secondary"></i> Laravel
+												framework</li
+											>
+											<li
+												><i class="bi bi-database-fill-add text-warning"></i>
+												Database</li
+											>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Other Frontend Tools Accordion -->
+					<div class="col-md-4 mb-3">
+						<div class="accordion" id="frontendAccordion">
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="frontendHeading">
+									<button
+										class="accordion-button collapsed"
+										type="button"
+										data-bs-toggle="collapse"
+										data-bs-target="#frontendCollapse"
+										aria-expanded="false"
+										aria-controls="frontendCollapse">
+										Other Frontend tools
+									</button>
+								</h2>
+								<div
+									id="frontendCollapse"
+									class="accordion-collapse collapse"
+									aria-labelledby="frontendHeading"
+									data-bs-parent="#frontendAccordion">
+									<div class="accordion-body">
+										<ul class="list-unstyled mb-0">
+											<li><i class="bi bi-command text-secondary"></i> Sass</li>
+											<li><i class="bi bi-fullscreen"></i> Figma</li>
+											<li
+												><i class="bi bi-wordpress text-info"></i> WordPress</li
+											>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Backend Accordion -->
+					<div class="col-md-4 mb-3">
+						<div class="accordion" id="backendAccordion">
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="backendHeading">
+									<button
+										class="accordion-button collapsed"
+										type="button"
+										data-bs-toggle="collapse"
+										data-bs-target="#backendCollapse"
+										aria-expanded="false"
+										aria-controls="backendCollapse">
+										Backend devs
+									</button>
+								</h2>
+								<div
+									id="backendCollapse"
+									class="accordion-collapse collapse"
+									aria-labelledby="backendHeading"
+									data-bs-parent="#backendAccordion">
+									<div class="accordion-body">
+										<ul class="list-unstyled mb-0">
+											<li
+												><i class="bi bi-terminal-fill text-success"></i> Qt
+												Python library</li
+											>
+											<li
+												><i class="bi bi-ladder text-warning"></i> Flask
+												framework</li
+											>
+											<li
+												><i class="bi bi-signal text-info"></i> Django
+												framework</li
+											>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+				<path
+					fill="#54d6af"
+					fill-opacity="1"
+					d="M0,288L48,266.7C96,245,192,203,288,181.3C384,160,480,160,576,154.7C672,149,768,139,864,117.3C960,96,1056,64,1152,64C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+			</svg>
+		</section>
+
+		<section id="projects">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col mb-4">
+						<h2>My Projects</h2>
+					</div>
+				</div>
+				<div class="row justify-content-around">
+					<div class="col-md-4 mb-3">
+						<div class="card">
+							<img
+								src="img/casheer.jpg"
+								class="card-img-top rounded float-start"
+								alt="Gambar 3" />
+							<div class="card-body">
+								<h3 class="card-title fs-5"
+									>Python-based Point of Sale (POS) Project using Qt Library</h3
+								>
+								<p class="card-text"
+									>Experience efficiency and modernity with our Python-based
+									Point of Sale project developed using the Qt library. This
+									project redefines transaction management and inventory
+									control.</p
+								>
+								<a
+									href="https://github.com/Apm26/PL_smt2"
+									class="btn btn-primary"
+									>More detail</a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 mb-3">
+						<div class="card">
+							<img
+								src="img/plafon.jpg"
+								class="card-img-top rounded float-start"
+								alt="Gambar 3" />
+							<div class="card-body">
+								<h3 class="card-title fs-5"
+									>WordPress Ceiling Store Project: Transforming Spaces with
+									Elegance</h3
+								>
+								<p class="card-text"
+									>Step into the world of interior elegance and transformation
+									with our WordPress Ceiling Store project. This project
+									revolves around creating an immersive online platform
+									dedicated to ceiling solutions that redefine spaces.</p
+								>
+								<a
+									href="https://rungkad.kanatechno.com/"
+									class="btn btn-primary"
+									>More detail</a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 mb-3">
+						<div class="card">
+							<img
+								src="img/clinic.jpg"
+								class="card-img-top rounded float-start"
+								alt="Gambar 1" />
+							<div class="card-body">
+								<h3 class="card-title fs-5"
+									>Online Consultation Platform: Your Gateway to Expert Insights
+								</h3>
+								<p class="card-text"
+									>Explore the world of seamless virtual consultations with our
+									Online Consultation Platform, developed using the powerful
+									Flask framework. This project redefines the way individuals
+									connect with experts across various fields, enabling
+									insightful conversations from the comfort of their screens.</p
+								>
+								<a
+									href="https://github.com/Apm26/PAW_smt3"
+									class="btn btn-primary"
+									>More detail</a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 mb-3">
+						<div class="card">
+							<img
+								src="img/phone.jpg"
+								class="card-img-top rounded float-start"
+								alt="Gambar 2" />
+							<div class="card-body">
+								<h3 class="card-title fs-5"
+									>E-Phone Store: Redefining Online Shopping with Django
+								</h3>
+								<p class="card-text"
+									>Step into the future of online shopping with E-Phone Store, a
+									cutting-edge e-commerce platform crafted using the robust
+									Django framework. This project transforms the way people shop
+									for smartphones, providing a seamless and immersive experience
+									that's as dynamic as the devices it showcases..</p
+								>
+								<a
+									href="https://github.com/Apm26/PAWL_smt4"
+									class="btn btn-primary"
+									>More detail</a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 mb-3">
+						<div class="card">
+							<img
+								src="img/merch.jpg"
+								class="card-img-top rounded float-start"
+								alt="Gambar 3" />
+							<div class="card-body">
+								<h3 class="card-title fs-5"
+									>FoodEase App: Savory Delights at Your Fingertips
+								</h3>
+								<p class="card-text"
+									>Introducing FoodEase, a culinary breakthrough designed to
+									tantalize your taste buds and simplify your dining experience.
+									Crafted with precision using the innovative Figma platform,
+									FoodEase reimagines online food ordering, making it not just a
+									service, but an indulgence in itself.</p
+								>
+								<a
+									href="https://www.figma.com/file/EqApliXclSF95AQbtrAwbF/Presesntasi-Projek-goUMKM-(Copy)?type=design&t=uIeZ6b9xukHq6mXJ-6"
+									class="btn btn-primary"
+									>More detail</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+				<path
+					fill="#ffffff"
+					fill-opacity="1"
+					d="M0,128L26.7,117.3C53.3,107,107,85,160,85.3C213.3,85,267,107,320,128C373.3,149,427,171,480,181.3C533.3,192,587,192,640,176C693.3,160,747,128,800,106.7C853.3,85,907,75,960,90.7C1013.3,107,1067,149,1120,186.7C1173.3,224,1227,256,1280,272C1333.3,288,1387,288,1413,288L1440,288L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path>
+			</svg>
+		</section>
+
+		<section id="contact">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col mb-3">
+						<h2>Contact me</h2>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-md-6">
+						<form class="mb-3">
+							<div class="mb-3">
+								<label for="name" class="form-label">Fullname</label>
+								<input
+									type="text"
+									class="form-control shadow-sm"
+									id="name"
+									aria-describedby="name"
+									required />
+							</div>
+							<div class="mb-3">
+								<label for="email" class="form-label">Email</label>
+								<input
+									type="email"
+									class="form-control shadow-sm"
+									id="email"
+									aria-describedby="email"
+									required />
+							</div>
+							<div class="mb-3">
+								<label for="message" class="form-label">Message</label>
+								<textarea
+									class="form-control shadow-sm"
+									id="message"
+									rows="3"></textarea>
+							</div>
+							<button type="submit" class="btn btn-primary">Send</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+				<path
+					fill="#0d6efd"
+					fill-opacity="1"
+					d="M0,160L48,149.3C96,139,192,117,288,117.3C384,117,480,139,576,149.3C672,160,768,160,864,170.7C960,181,1056,203,1152,202.7C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+			</svg>
+		</section>
+
+		<footer class="bg-primary navbar-dark text-white text-center pb-3">
+			<div class="pt-3">
+				<p
+					>Copyright &copy; 2023 ||
+					<a href="#home" class="text-white fw-bold text-decoration-none"
+						>Agung Permana Mukti</a
+					>
+				</p>
+			</div>
+			<div class="social-icons mt-3">
+				<a
+					href="https://github.com/Apm26"
+					class="text-white me-3 text-decoration-none">
+					<i class="bi bi-instagram"></i>
+				</a>
+				<a
+					href="https://instagram.com/a.pm26"
+					class="text-white me-3 text-decoration-none">
+					<i class="bi bi-github"></i>
+				</a>
+				<a
+					href="https://www.linkedin.com/in/agung-permana-mukti/"
+					class="text-white me-3 text-decoration-none">
+					<i class="bi bi-linkedin"></i>
+				</a>
+				<a
+					href="https://twitter.com/KangAgung26Ea"
+					class="text-white me-3 text-decoration-none">
+					<i class="bi bi-twitter"></i>
+				</a>
+				<a
+					href="https://www.facebook.com/agung.permanamukti/"
+					class="text-white me-3 text-decoration-none">
+					<i class="bi bi-facebook"></i>
+				</a>
+			</div>
+		</footer>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"></script>
+	</body>
+</html>

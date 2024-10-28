@@ -1,0 +1,76 @@
+:root {
+	--primary-color: #63b1e6;
+	--secondary-color: #4fcbd1;
+	--accent-color: #54d6af;
+	--jumbotron-bg: #e2edff;
+	--contact-input-focus-bg: #f7feff;
+	--contact-button-shadow: rgba(44, 57, 61, 0.5);
+	--card-hover-shadow: rgba(0, 0, 0, 0.1);
+	--card-hover-scale: 1.05;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.jumbotron {
+	background-color: var(--jumbotron-bg);
+	padding-top: 6rem;
+}
+
+.jumbotron em {
+	text-shadow: 0 0 3px #686868, 0 0 5px #f4f7f7;
+}
+
+section {
+	padding-top: 5rem;
+}
+
+section#about {
+	background-color: var(--primary-color);
+	color: #333;
+}
+
+section#about .lead {
+	font-family: "Nunito", sans-serif;
+}
+
+section#skills {
+	background-color: var(--secondary-color);
+}
+
+section#projects {
+	background-color: var(--accent-color);
+}
+
+section#contact {
+	background-color: #fff;
+}
+
+section#contact input:focus {
+	background-color: var(--contact-input-focus-bg);
+}
+
+section#contact button {
+	box-shadow: 0 0 10px var(--contact-button-shadow);
+}
+
+.card {
+	position: relative;
+	overflow: hidden;
+	transition: transform 0.3s, box-shadow 0.3s;
+	height: 60vh;
+	overflow: auto;
+	transform: scale(0.92);
+}
+
+.card:hover {
+	transform: scale(var(--card-hover-scale));
+	box-shadow: 0 0.2em 0.4em var(--card-hover-shadow);
+	z-index: 1;
+}
+
+.card:hover img {
+	opacity: 0.45;
+}
